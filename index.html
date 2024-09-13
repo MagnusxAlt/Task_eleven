@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover Effect</title>
+</head>
+<body>
+    <!-- Image Element -->
+    <img id="hoverImage" src="anime-moon-landscape.jpg" alt="Sample Image" width="300">
+
+    <script>
+        // JavaScript for hiding and showing the image on hover
+        const image = document.getElementById('hoverImage');
+
+        // Function to make the image invisible on mouseover
+        image.addEventListener('mouseover', function() {
+            image.style.visibility = 'hidden';
+        });
+
+        // Function to make the image visible again on mouseout
+        image.addEventListener('mouseout', function() {
+            image.style.visibility = 'visible';
+        });
+    </script>
+</body>
+</html>
