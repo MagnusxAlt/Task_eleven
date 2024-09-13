@@ -10,8 +10,9 @@ This project demonstrates an image hover effect using **only JavaScript**. When 
 
 2. Navigate to the project folder.
  
-             cd task 11
-3. Open the index.html file in Google Chrome or any web browser of your choice.
+       cd task 11
+    
+4. Open the index.html file in Google Chrome or any web browser of your choice.
 
     Right-click on index.html and select Open with > Google Chrome.
     Or you can directly drag the file into an open Chrome window.
